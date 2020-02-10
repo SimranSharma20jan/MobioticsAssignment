@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1811121623F1449500F1FF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811121523F1449500F1FF40 /* AppDelegate.swift */; };
+		1811121823F1449500F1FF40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811121723F1449500F1FF40 /* ViewController.swift */; };
+		1811121B23F1449500F1FF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1811121923F1449500F1FF40 /* Main.storyboard */; };
+		1811121E23F1449500F1FF40 /* Adarsh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1811121C23F1449500F1FF40 /* Adarsh.xcdatamodeld */; };
+		1811122023F1449900F1FF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1811121F23F1449900F1FF40 /* Assets.xcassets */; };
+		1811122323F1449900F1FF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1811122123F1449900F1FF40 /* LaunchScreen.storyboard */; };
+		1811122E23F1449A00F1FF40 /* AdarshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811122D23F1449A00F1FF40 /* AdarshTests.swift */; };
+		1811123923F1449A00F1FF40 /* AdarshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811123823F1449A00F1FF40 /* AdarshUITests.swift */; };
+		18513AB723F1566600C87A93 /* EncryptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18513AB623F1566600C87A93 /* EncryptController.swift */; };
+		18513AB923F15C2D00C87A93 /* DecryptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18513AB823F15C2D00C87A93 /* DecryptController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1811122A23F1449A00F1FF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1811120A23F1449500F1FF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1811121123F1449500F1FF40;
+			remoteInfo = Adarsh;
+		};
+		1811123523F1449A00F1FF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1811120A23F1449500F1FF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1811121123F1449500F1FF40;
+			remoteInfo = Adarsh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1811121223F1449500F1FF40 /* Adarsh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adarsh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1811121523F1449500F1FF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1811121723F1449500F1FF40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1811121A23F1449500F1FF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1811121D23F1449500F1FF40 /* Adarsh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adarsh.xcdatamodel; sourceTree = "<group>"; };
+		1811121F23F1449900F1FF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1811122223F1449900F1FF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1811122423F1449900F1FF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1811122923F1449A00F1FF40 /* AdarshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdarshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1811122D23F1449A00F1FF40 /* AdarshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdarshTests.swift; sourceTree = "<group>"; };
+		1811122F23F1449A00F1FF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1811123423F1449A00F1FF40 /* AdarshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdarshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1811123823F1449A00F1FF40 /* AdarshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdarshUITests.swift; sourceTree = "<group>"; };
+		1811123A23F1449A00F1FF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18513AB623F1566600C87A93 /* EncryptController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptController.swift; sourceTree = "<group>"; };
+		18513AB823F15C2D00C87A93 /* DecryptController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecryptController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1811120F23F1449500F1FF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1811122623F1449A00F1FF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1811123123F1449A00F1FF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1811120923F1449500F1FF40 = {
+			isa = PBXGroup;
+			children = (
+				1811121423F1449500F1FF40 /* Adarsh */,
+				1811122C23F1449A00F1FF40 /* AdarshTests */,
+				1811123723F1449A00F1FF40 /* AdarshUITests */,
+				1811121323F1449500F1FF40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1811121323F1449500F1FF40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1811121223F1449500F1FF40 /* Adarsh.app */,
+				1811122923F1449A00F1FF40 /* AdarshTests.xctest */,
+				1811123423F1449A00F1FF40 /* AdarshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1811121423F1449500F1FF40 /* Adarsh */ = {
+			isa = PBXGroup;
+			children = (
+				1811121523F1449500F1FF40 /* AppDelegate.swift */,
+				1811121723F1449500F1FF40 /* ViewController.swift */,
+				18513AB623F1566600C87A93 /* EncryptController.swift */,
+				18513AB823F15C2D00C87A93 /* DecryptController.swift */,
+				1811121923F1449500F1FF40 /* Main.storyboard */,
+				1811121F23F1449900F1FF40 /* Assets.xcassets */,
+				1811122123F1449900F1FF40 /* LaunchScreen.storyboard */,
+				1811122423F1449900F1FF40 /* Info.plist */,
+				1811121C23F1449500F1FF40 /* Adarsh.xcdatamodeld */,
+			);
+			path = Adarsh;
+			sourceTree = "<group>";
+		};
+		1811122C23F1449A00F1FF40 /* AdarshTests */ = {
+			isa = PBXGroup;
+			children = (
+				1811122D23F1449A00F1FF40 /* AdarshTests.swift */,
+				1811122F23F1449A00F1FF40 /* Info.plist */,
+			);
+			path = AdarshTests;
+			sourceTree = "<group>";
+		};
+		1811123723F1449A00F1FF40 /* AdarshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1811123823F1449A00F1FF40 /* AdarshUITests.swift */,
+				1811123A23F1449A00F1FF40 /* Info.plist */,
+			);
+			path = AdarshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1811121123F1449500F1FF40 /* Adarsh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1811123D23F1449A00F1FF40 /* Build configuration list for PBXNativeTarget "Adarsh" */;
+			buildPhases = (
+				1811120E23F1449500F1FF40 /* Sources */,
+				1811120F23F1449500F1FF40 /* Frameworks */,
+				1811121023F1449500F1FF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adarsh;
+			productName = Adarsh;
+			productReference = 1811121223F1449500F1FF40 /* Adarsh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1811122823F1449A00F1FF40 /* AdarshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1811124023F1449A00F1FF40 /* Build configuration list for PBXNativeTarget "AdarshTests" */;
+			buildPhases = (
+				1811122523F1449A00F1FF40 /* Sources */,
+				1811122623F1449A00F1FF40 /* Frameworks */,
+				1811122723F1449A00F1FF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1811122B23F1449A00F1FF40 /* PBXTargetDependency */,
+			);
+			name = AdarshTests;
+			productName = AdarshTests;
+			productReference = 1811122923F1449A00F1FF40 /* AdarshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1811123323F1449A00F1FF40 /* AdarshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1811124323F1449A00F1FF40 /* Build configuration list for PBXNativeTarget "AdarshUITests" */;
+			buildPhases = (
+				1811123023F1449A00F1FF40 /* Sources */,
+				1811123123F1449A00F1FF40 /* Frameworks */,
+				1811123223F1449A00F1FF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1811123623F1449A00F1FF40 /* PBXTargetDependency */,
+			);
+			name = AdarshUITests;
+			productName = AdarshUITests;
+			productReference = 1811123423F1449A00F1FF40 /* AdarshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1811120A23F1449500F1FF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1811121123F1449500F1FF40 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1811122823F1449A00F1FF40 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1811121123F1449500F1FF40;
+					};
+					1811123323F1449A00F1FF40 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1811121123F1449500F1FF40;
+					};
+				};
+			};
+			buildConfigurationList = 1811120D23F1449500F1FF40 /* Build configuration list for PBXProject "Adarsh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1811120923F1449500F1FF40;
+			productRefGroup = 1811121323F1449500F1FF40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1811121123F1449500F1FF40 /* Adarsh */,
+				1811122823F1449A00F1FF40 /* AdarshTests */,
+				1811123323F1449A00F1FF40 /* AdarshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1811121023F1449500F1FF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1811122323F1449900F1FF40 /* LaunchScreen.storyboard in Resources */,
+				1811122023F1449900F1FF40 /* Assets.xcassets in Resources */,
+				1811121B23F1449500F1FF40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1811122723F1449A00F1FF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1811123223F1449A00F1FF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1811120E23F1449500F1FF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1811121823F1449500F1FF40 /* ViewController.swift in Sources */,
+				1811121E23F1449500F1FF40 /* Adarsh.xcdatamodeld in Sources */,
+				1811121623F1449500F1FF40 /* AppDelegate.swift in Sources */,
+				18513AB923F15C2D00C87A93 /* DecryptController.swift in Sources */,
+				18513AB723F1566600C87A93 /* EncryptController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1811122523F1449A00F1FF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1811122E23F1449A00F1FF40 /* AdarshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1811123023F1449A00F1FF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1811123923F1449A00F1FF40 /* AdarshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1811122B23F1449A00F1FF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1811121123F1449500F1FF40 /* Adarsh */;
+			targetProxy = 1811122A23F1449A00F1FF40 /* PBXContainerItemProxy */;
+		};
+		1811123623F1449A00F1FF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1811121123F1449500F1FF40 /* Adarsh */;
+			targetProxy = 1811123523F1449A00F1FF40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1811121923F1449500F1FF40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1811121A23F1449500F1FF40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1811122123F1449900F1FF40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1811122223F1449900F1FF40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1811123B23F1449A00F1FF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1811123C23F1449A00F1FF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1811123E23F1449A00F1FF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Adarsh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adarsh.Adarsh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1811123F23F1449A00F1FF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Adarsh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adarsh.Adarsh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1811124123F1449A00F1FF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdarshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adarsh.AdarshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adarsh.app/Adarsh";
+			};
+			name = Debug;
+		};
+		1811124223F1449A00F1FF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdarshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adarsh.AdarshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adarsh.app/Adarsh";
+			};
+			name = Release;
+		};
+		1811124423F1449A00F1FF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdarshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adarsh.AdarshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adarsh;
+			};
+			name = Debug;
+		};
+		1811124523F1449A00F1FF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdarshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adarsh.AdarshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adarsh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1811120D23F1449500F1FF40 /* Build configuration list for PBXProject "Adarsh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1811123B23F1449A00F1FF40 /* Debug */,
+				1811123C23F1449A00F1FF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1811123D23F1449A00F1FF40 /* Build configuration list for PBXNativeTarget "Adarsh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1811123E23F1449A00F1FF40 /* Debug */,
+				1811123F23F1449A00F1FF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1811124023F1449A00F1FF40 /* Build configuration list for PBXNativeTarget "AdarshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1811124123F1449A00F1FF40 /* Debug */,
+				1811124223F1449A00F1FF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1811124323F1449A00F1FF40 /* Build configuration list for PBXNativeTarget "AdarshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1811124423F1449A00F1FF40 /* Debug */,
+				1811124523F1449A00F1FF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1811121C23F1449500F1FF40 /* Adarsh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1811121D23F1449500F1FF40 /* Adarsh.xcdatamodel */,
+			);
+			currentVersion = 1811121D23F1449500F1FF40 /* Adarsh.xcdatamodel */;
+			path = Adarsh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1811120A23F1449500F1FF40 /* Project object */;
+}
